@@ -1,0 +1,54 @@
+a {
+    color: #2BCED6;
+    text-decoration: none;
+  }
+  
+ .highlight {
+  color:#2BCED6;
+  }
+  a:hover {
+    color:#ccc;
+  }
+
+  h1, footer {
+    padding: 10px;
+    text-align: center;
+    /* border-left: 10px solid #00adb5; */
+    border-radius: 50px 0px 0px;
+    font-family: 'Heebo', sans-serif;
+    font-size:25pt;
+    
+  }
+// problemme mit der komischen alles Grossmacherei
+  p {
+    // padding: 10px;
+    /* border-left: 10px solid #00adb5; */
+    font-family: 'Quicksand', sans-serif;
+    // height:130px;
+    line-height:30px;
+    
+  }
+  
+  img {
+     margin-right:15px;
+  }
+
+  ul {
+    color: #F2BE8D;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  li {
+    color: #040405;
+    margin: 10px 0;
+  }
+  footer {
+    color: #303242;
+    font-size:60%;
+    border-radius: 0px 0px 0px 50px;
+    font-weight:none;
+  }
+
+  .garantise {
+    padding:50px;
+  }

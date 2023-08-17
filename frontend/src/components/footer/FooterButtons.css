@@ -1,0 +1,15 @@
+.footer{
+  padding: 50px;
+}
+
+.footer-badge {
+  background-color: white;
+  box-shadow: 4px 4px 10px rgb(173, 173, 173);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.footer-badge:hover {
+  box-shadow: 4px 4px 10px rgb(173, 173, 173);
+  transform: translateY(-2px);
+}

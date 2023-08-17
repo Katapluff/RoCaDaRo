@@ -1,0 +1,17 @@
+.page-products {
+  min-width: 50vh;
+  padding-top: 70px;
+}
+
+.karten-section {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 90px; */
+}
+
+.productText{
+  color: gray;
+  padding-bottom: 0px;
+
+}

@@ -1,0 +1,28 @@
+ .center-content {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Ajusta la altura según tus necesidades */
+    padding: 5rem;
+  }
+
+.btn-primary{
+  background-color: #f0c14b;
+  border: none;
+  color: #111;
+  
+}
+.btn-primary:hover{
+  background-color:#e69d28 ;
+  color: black;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding-left: 0;
+}

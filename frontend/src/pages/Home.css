@@ -1,0 +1,19 @@
+#home {
+  min-height: 100vh;
+}
+
+/* .slogan {
+  margin-bottom: 50px;
+} */
+
+/* .searchTest {
+  height: 150px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px black solid;
+  margin-bottom: 50px;
+} */
+
+.searchbar {
+  width: 100%;
+}

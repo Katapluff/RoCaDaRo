@@ -1,0 +1,133 @@
+.carts {
+  margin: auto;
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  /* height: 100%; */
+  transition: all 300ms ease-in-out;
+  /* background-color: #84929262; */
+  z-index: 2;
+  padding-bottom: 5rem;
+  padding-top: 8rem;
+  visibility: hidden;
+}
+
+.cart {
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%) scale(.5); */
+  max-width: 800px;
+  height: 80%;
+  border-radius: 8px;
+  overflow-x: scroll;
+  transition: all 300ms ease-in-out;
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+  margin: auto;
+}
+
+.cart h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.carts.show {
+  visibility: visible;
+}
+
+.cart.show {
+  /* transform: translate(-50%, -50%) scale(1.1); */
+  opacity: 1;
+  visibility: visible;
+}
+
+.cart_page {
+  padding: 20px;
+}
+
+.cart_close box-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  /* transform: all 300ms ease-in-out; */
+  margin: 3rem 0 0 2rem;
+}
+
+.cart_close box-icon:hover {
+  fill: crimson;
+}
+
+.cart_center {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cart_item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  width: 80%;
+  margin: 2rem auto;
+  box-shadow: 0 1px 10px #09c2c2;
+  border-radius: 5px;
+}
+
+.cart_item .title {
+  text-align: left;
+}
+
+.cart_item .details {
+  min-width: 200px;
+  width: 70%;
+}
+
+.cart_item img {
+  width: 9rem;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.cart_item h3 {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart_item .price {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: start;
+}
+
+.cart_item .size {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.remove_item {
+  font-size: 2rem;
+  width: 60px;
+  height: 80px;
+  color: crimson;
+  margin-top: 3rem;
+}
+
+.cart_footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cart_footer h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+
+/* #paypal-button-container {
+  width: 100px;
+  height: 80px;
+  background-color: blue;
+} */

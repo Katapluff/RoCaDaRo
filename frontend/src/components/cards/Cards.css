@@ -1,0 +1,13 @@
+.buttonGo {
+  height: 100%;
+  width: 100%;
+  border-radius: 30%;
+}
+
+.hover-effect {
+  transition: all 0.3s ease-in-out;
+}
+.hover-effect:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

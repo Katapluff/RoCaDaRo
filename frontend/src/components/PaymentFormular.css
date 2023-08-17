@@ -1,0 +1,21 @@
+/* PaymentForm.css */
+.form-container {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-container button {
+    margin-top: 16px;
+  }
+  
+  .payButton{
+    width: 50px;
+    border-radius: 2px;
+    background-color: #09c2c2;;
+  }
